@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ShapeViewController.h"
 
 @interface ViewController () <UITableViewDelegate, UITableViewDataSource>
 
@@ -26,7 +27,7 @@
     [_tableView registerClass:UITableViewCell.class forCellReuseIdentifier:@"Cell"];
     [self.view addSubview:_tableView];
 
-    _datas = @[@"ShapeViewController",
+    _datas = @[[ShapeViewController new],
                @"TextViewController",
                @"TransformViewController",
                @"GradientViewController"
@@ -40,14 +41,13 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
-    cell.textLabel.text = _datas[indexPath.row];
+    UIViewController *vc = _datas[indexPath.row];
+    cell.textLabel.text = NSStringFromClass(vc.class);
     return cell;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    NSString *str = _datas[indexPath.row];
-    UIViewController *vc = (UIViewController *)NSClassFromString(str);
-    [self.navigationController pushViewController:vc animated:YES];
+    [self.navigationController pushViewController:_datas[indexPath.row] animated:YES];
 }
 
 @end
