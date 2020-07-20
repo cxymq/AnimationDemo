@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AFED56EF24C53DEF0039AF0B /* TransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFED56EE24C53DEF0039AF0B /* TransformViewController.m */; };
+		AFED56F224C53E0C0039AF0B /* GradientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFED56F124C53E0C0039AF0B /* GradientViewController.m */; };
 		AFF7F1AD24C53B14003D9084 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF7F1AC24C53B14003D9084 /* AppDelegate.m */; };
 		AFF7F1B024C53B14003D9084 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF7F1AF24C53B14003D9084 /* SceneDelegate.m */; };
 		AFF7F1B324C53B14003D9084 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF7F1B224C53B14003D9084 /* ViewController.m */; };
@@ -14,9 +16,15 @@
 		AFF7F1B824C53B15003D9084 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFF7F1B724C53B15003D9084 /* Assets.xcassets */; };
 		AFF7F1BB24C53B15003D9084 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFF7F1B924C53B15003D9084 /* LaunchScreen.storyboard */; };
 		AFF7F1BE24C53B15003D9084 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF7F1BD24C53B15003D9084 /* main.m */; };
+		AFF7F1C624C53D2C003D9084 /* ShapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF7F1C524C53D2C003D9084 /* ShapeViewController.m */; };
+		AFF7F1C924C53D6B003D9084 /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF7F1C824C53D6B003D9084 /* TextViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AFED56ED24C53DEF0039AF0B /* TransformViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransformViewController.h; sourceTree = "<group>"; };
+		AFED56EE24C53DEF0039AF0B /* TransformViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransformViewController.m; sourceTree = "<group>"; };
+		AFED56F024C53E0C0039AF0B /* GradientViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GradientViewController.h; sourceTree = "<group>"; };
+		AFED56F124C53E0C0039AF0B /* GradientViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradientViewController.m; sourceTree = "<group>"; };
 		AFF7F1A824C53B14003D9084 /* AnimationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFF7F1AB24C53B14003D9084 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AFF7F1AC24C53B14003D9084 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +37,10 @@
 		AFF7F1BA24C53B15003D9084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AFF7F1BC24C53B15003D9084 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFF7F1BD24C53B15003D9084 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AFF7F1C424C53D2C003D9084 /* ShapeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShapeViewController.h; sourceTree = "<group>"; };
+		AFF7F1C524C53D2C003D9084 /* ShapeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShapeViewController.m; sourceTree = "<group>"; };
+		AFF7F1C724C53D6B003D9084 /* TextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextViewController.h; sourceTree = "<group>"; };
+		AFF7F1C824C53D6B003D9084 /* TextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +79,14 @@
 				AFF7F1AF24C53B14003D9084 /* SceneDelegate.m */,
 				AFF7F1B124C53B14003D9084 /* ViewController.h */,
 				AFF7F1B224C53B14003D9084 /* ViewController.m */,
+				AFF7F1C424C53D2C003D9084 /* ShapeViewController.h */,
+				AFF7F1C524C53D2C003D9084 /* ShapeViewController.m */,
+				AFF7F1C724C53D6B003D9084 /* TextViewController.h */,
+				AFF7F1C824C53D6B003D9084 /* TextViewController.m */,
+				AFED56ED24C53DEF0039AF0B /* TransformViewController.h */,
+				AFED56EE24C53DEF0039AF0B /* TransformViewController.m */,
+				AFED56F024C53E0C0039AF0B /* GradientViewController.h */,
+				AFED56F124C53E0C0039AF0B /* GradientViewController.m */,
 				AFF7F1B424C53B14003D9084 /* Main.storyboard */,
 				AFF7F1B724C53B15003D9084 /* Assets.xcassets */,
 				AFF7F1B924C53B15003D9084 /* LaunchScreen.storyboard */,
@@ -146,8 +166,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFED56F224C53E0C0039AF0B /* GradientViewController.m in Sources */,
 				AFF7F1B324C53B14003D9084 /* ViewController.m in Sources */,
+				AFED56EF24C53DEF0039AF0B /* TransformViewController.m in Sources */,
+				AFF7F1C624C53D2C003D9084 /* ShapeViewController.m in Sources */,
 				AFF7F1AD24C53B14003D9084 /* AppDelegate.m in Sources */,
+				AFF7F1C924C53D6B003D9084 /* TextViewController.m in Sources */,
 				AFF7F1BE24C53B15003D9084 /* main.m in Sources */,
 				AFF7F1B024C53B14003D9084 /* SceneDelegate.m in Sources */,
 			);
