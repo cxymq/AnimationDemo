@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		AFED56EF24C53DEF0039AF0B /* TransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFED56EE24C53DEF0039AF0B /* TransformViewController.m */; };
 		AFED56F224C53E0C0039AF0B /* GradientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFED56F124C53E0C0039AF0B /* GradientViewController.m */; };
+		AFED56F524C58C9C0039AF0B /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFED56F424C58C9C0039AF0B /* CoreText.framework */; };
 		AFF7F1AD24C53B14003D9084 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF7F1AC24C53B14003D9084 /* AppDelegate.m */; };
 		AFF7F1B024C53B14003D9084 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF7F1AF24C53B14003D9084 /* SceneDelegate.m */; };
 		AFF7F1B324C53B14003D9084 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF7F1B224C53B14003D9084 /* ViewController.m */; };
@@ -25,6 +26,7 @@
 		AFED56EE24C53DEF0039AF0B /* TransformViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransformViewController.m; sourceTree = "<group>"; };
 		AFED56F024C53E0C0039AF0B /* GradientViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GradientViewController.h; sourceTree = "<group>"; };
 		AFED56F124C53E0C0039AF0B /* GradientViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradientViewController.m; sourceTree = "<group>"; };
+		AFED56F424C58C9C0039AF0B /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		AFF7F1A824C53B14003D9084 /* AnimationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFF7F1AB24C53B14003D9084 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AFF7F1AC24C53B14003D9084 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -48,17 +50,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFED56F524C58C9C0039AF0B /* CoreText.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AFED56F324C58C9C0039AF0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFED56F424C58C9C0039AF0B /* CoreText.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AFF7F19F24C53B14003D9084 = {
 			isa = PBXGroup;
 			children = (
 				AFF7F1AA24C53B14003D9084 /* AnimationTest */,
 				AFF7F1A924C53B14003D9084 /* Products */,
+				AFED56F324C58C9C0039AF0B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};

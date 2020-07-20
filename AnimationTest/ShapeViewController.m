@@ -7,6 +7,7 @@
 //
 
 /**
+ * 参考：https://zsisme.gitbooks.io/ios-/content/chapter6/cashapelayer.html
  *CAShapeLayer 是一个通过矢量图形而不是 bitmap 来绘制的图层子类。
  *你指定诸如颜色和线宽等属性，用 CGPath 来定义想要绘制的图形，最后 CAS hapeLayer 就自动渲染出来了。
  *当然，你也可以用 Core Graphics 直接向原始的 CALyer 的内容中绘制一个路径，相比直下，使用 CAShapeLayer 有以下一些优点：
@@ -14,7 +15,6 @@
  * 2. 高效使用内存。一个 CAShapeLayer 不需要像普通 CALayer 一样创建一个寄宿图形，所以无论有多大，都不会占用太多的内存。
  * 3. 不会被图层边界剪裁掉。一个 CAShapeLayer 可以在边界之外绘制。你的图层路径不会像在使用 Core Graphics 的普通 CALayer 一样被剪裁掉（如我们在第二章所见）。
  * 4. 不会出现像素化。当你给 CAShapeLayer 做 3D 变换时，它不像一个有寄宿图的普通图层一样变得像素化。
- * 参考：https://zsisme.gitbooks.io/ios-/content/chapter6/cashapelayer.html
  * demo 参考：https://github.com/CaiShengbo/Penguin
 */
 #import "ShapeViewController.h"

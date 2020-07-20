@@ -8,6 +8,9 @@
 
 #import "ViewController.h"
 #import "ShapeViewController.h"
+#import "TextViewController.h"
+#import "TransformViewController.h"
+#import "GradientViewController.h"
 
 @interface ViewController () <UITableViewDelegate, UITableViewDataSource>
 
@@ -28,9 +31,9 @@
     [self.view addSubview:_tableView];
 
     _datas = @[[ShapeViewController new],
-               @"TextViewController",
-               @"TransformViewController",
-               @"GradientViewController"
+               [TextViewController new],
+               [TransformViewController new],
+               [GradientViewController new]
     ];
 }
 
