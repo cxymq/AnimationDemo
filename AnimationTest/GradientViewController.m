@@ -32,6 +32,7 @@
     layer.frame = contentView.bounds;
     layer.colors = @[(__bridge id)UIColor.blueColor.CGColor, (__bridge id)UIColor.brownColor.CGColor, (__bridge id)UIColor.systemPinkColor.CGColor];
     layer.locations = @[@0.0, @0.2, @0.6];
+    // startPoint 到 endPoint 之间的方向，表示 color 的渐变渲染方向
     layer.startPoint = CGPointMake(0, 0);
     layer.endPoint = CGPointMake(1, 1);
     [contentView.layer addSublayer:layer];

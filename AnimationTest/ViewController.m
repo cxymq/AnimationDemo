@@ -11,6 +11,8 @@
 #import "TextViewController.h"
 #import "TransformViewController.h"
 #import "GradientViewController.h"
+#import "ReplicatorViewController.h"
+#import "EmitterViewController.h"
 
 @interface ViewController () <UITableViewDelegate, UITableViewDataSource>
 
@@ -33,7 +35,9 @@
     _datas = @[[ShapeViewController new],
                [TextViewController new],
                [TransformViewController new],
-               [GradientViewController new]
+               [GradientViewController new],
+               [ReplicatorViewController new],
+               [EmitterViewController new]
     ];
 }
 

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF0CBF4924C6DF5800101BA4 /* ReplicatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0CBF4824C6DF5800101BA4 /* ReplicatorViewController.m */; };
+		AF0CBF4C24C6E9A300101BA4 /* ReflectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0CBF4B24C6E9A300101BA4 /* ReflectionView.m */; };
+		AF92878924C8386F00A8AF4E /* EmitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF92878824C8386F00A8AF4E /* EmitterViewController.m */; };
+		AF92878B24C83D1F00A8AF4E /* wo_red.png in Resources */ = {isa = PBXBuildFile; fileRef = AF92878A24C83D1F00A8AF4E /* wo_red.png */; };
 		AFED56EF24C53DEF0039AF0B /* TransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFED56EE24C53DEF0039AF0B /* TransformViewController.m */; };
 		AFED56F224C53E0C0039AF0B /* GradientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFED56F124C53E0C0039AF0B /* GradientViewController.m */; };
 		AFED56F524C58C9C0039AF0B /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFED56F424C58C9C0039AF0B /* CoreText.framework */; };
@@ -22,13 +26,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF0CBF4724C6DF5800101BA4 /* ReplicatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReplicatorViewController.h; sourceTree = "<group>"; };
+		AF0CBF4824C6DF5800101BA4 /* ReplicatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReplicatorViewController.m; sourceTree = "<group>"; };
+		AF0CBF4A24C6E9A300101BA4 /* ReflectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReflectionView.h; sourceTree = "<group>"; };
+		AF0CBF4B24C6E9A300101BA4 /* ReflectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReflectionView.m; sourceTree = "<group>"; };
+		AF0CBF7D24C6F5C500101BA4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AF92878724C8386F00A8AF4E /* EmitterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmitterViewController.h; sourceTree = "<group>"; };
+		AF92878824C8386F00A8AF4E /* EmitterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmitterViewController.m; sourceTree = "<group>"; };
+		AF92878A24C83D1F00A8AF4E /* wo_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wo_red.png; sourceTree = "<group>"; };
 		AFED56ED24C53DEF0039AF0B /* TransformViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransformViewController.h; sourceTree = "<group>"; };
 		AFED56EE24C53DEF0039AF0B /* TransformViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransformViewController.m; sourceTree = "<group>"; };
 		AFED56F024C53E0C0039AF0B /* GradientViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GradientViewController.h; sourceTree = "<group>"; };
 		AFED56F124C53E0C0039AF0B /* GradientViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradientViewController.m; sourceTree = "<group>"; };
 		AFED56F424C58C9C0039AF0B /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		AFF7F1A824C53B14003D9084 /* AnimationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AFF7F1AB24C53B14003D9084 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AFF7F1AC24C53B14003D9084 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AFF7F1AE24C53B14003D9084 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		AFF7F1AF24C53B14003D9084 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
@@ -85,7 +96,8 @@
 		AFF7F1AA24C53B14003D9084 /* AnimationTest */ = {
 			isa = PBXGroup;
 			children = (
-				AFF7F1AB24C53B14003D9084 /* AppDelegate.h */,
+				AF92878A24C83D1F00A8AF4E /* wo_red.png */,
+				AF0CBF7D24C6F5C500101BA4 /* AppDelegate.h */,
 				AFF7F1AC24C53B14003D9084 /* AppDelegate.m */,
 				AFF7F1AE24C53B14003D9084 /* SceneDelegate.h */,
 				AFF7F1AF24C53B14003D9084 /* SceneDelegate.m */,
@@ -99,6 +111,12 @@
 				AFED56EE24C53DEF0039AF0B /* TransformViewController.m */,
 				AFED56F024C53E0C0039AF0B /* GradientViewController.h */,
 				AFED56F124C53E0C0039AF0B /* GradientViewController.m */,
+				AF0CBF4724C6DF5800101BA4 /* ReplicatorViewController.h */,
+				AF0CBF4824C6DF5800101BA4 /* ReplicatorViewController.m */,
+				AF0CBF4A24C6E9A300101BA4 /* ReflectionView.h */,
+				AF0CBF4B24C6E9A300101BA4 /* ReflectionView.m */,
+				AF92878724C8386F00A8AF4E /* EmitterViewController.h */,
+				AF92878824C8386F00A8AF4E /* EmitterViewController.m */,
 				AFF7F1B424C53B14003D9084 /* Main.storyboard */,
 				AFF7F1B724C53B15003D9084 /* Assets.xcassets */,
 				AFF7F1B924C53B15003D9084 /* LaunchScreen.storyboard */,
@@ -166,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFF7F1BB24C53B15003D9084 /* LaunchScreen.storyboard in Resources */,
+				AF92878B24C83D1F00A8AF4E /* wo_red.png in Resources */,
 				AFF7F1B824C53B15003D9084 /* Assets.xcassets in Resources */,
 				AFF7F1B624C53B14003D9084 /* Main.storyboard in Resources */,
 			);
@@ -182,10 +201,13 @@
 				AFF7F1B324C53B14003D9084 /* ViewController.m in Sources */,
 				AFED56EF24C53DEF0039AF0B /* TransformViewController.m in Sources */,
 				AFF7F1C624C53D2C003D9084 /* ShapeViewController.m in Sources */,
+				AF0CBF4924C6DF5800101BA4 /* ReplicatorViewController.m in Sources */,
+				AF92878924C8386F00A8AF4E /* EmitterViewController.m in Sources */,
 				AFF7F1AD24C53B14003D9084 /* AppDelegate.m in Sources */,
 				AFF7F1C924C53D6B003D9084 /* TextViewController.m in Sources */,
 				AFF7F1BE24C53B15003D9084 /* main.m in Sources */,
 				AFF7F1B024C53B14003D9084 /* SceneDelegate.m in Sources */,
+				AF0CBF4C24C6E9A300101BA4 /* ReflectionView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
